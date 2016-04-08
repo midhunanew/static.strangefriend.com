@@ -15,7 +15,7 @@ body {
 .hor-center {
     padding-top: 20px;
     position: relative;
-    width: 300px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -78,4 +78,18 @@ footer {
     background-color: #fff;
     margin-top: 10px;
     padding: 10px;
+}
+
+/* maximum width for mobiles*/
+@media (max-width: 767px){
+    #main-content {
+        word-break: break-all;
+    }
+
+}
+/* minimum width for tablets*/
+@media (min-width: 768px){
+    .hor-center {
+        width: 300px;
+    }
 }
